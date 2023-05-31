@@ -42,6 +42,14 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
 
     // https://mvnrepository.com/artifact/com.squareup.okhttp3/okhttp
+    // Http
     implementation 'com.squareup.okhttp3:okhttp:3.10.0'
+    // TabLayout Tab切换
+    implementation 'com.flyco.tablayout:FlycoTabLayout_Lib:2.1.2@aar'
+
+    // Binder
+    implementation 'com.jakewharton:butterknife:10.0.0'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:10.0.0'
+    compileOnly 'com.google.android.wearable:wearable:2.6.0'
 
 }
