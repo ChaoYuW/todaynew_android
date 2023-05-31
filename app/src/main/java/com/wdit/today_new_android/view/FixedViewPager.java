@@ -7,7 +7,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewpager.widget.ViewPager;
 
-class FixedViewPager extends ViewPager {
+public class FixedViewPager extends ViewPager {
 
     public FixedViewPager(@NonNull Context context) {
         super(context);
